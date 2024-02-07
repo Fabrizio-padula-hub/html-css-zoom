@@ -6,3 +6,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* --------------
+    GENERAL 
+----------------*/
+header{
+    background-color: black;
+    height: 50px;
+}
+main{
+    background-color: lightgray;
+    height: calc(100vh - 150px);
+
+}
+footer{
+    background-color: #222222;
+    height: 100px;
+}
