@@ -16,6 +16,7 @@ img{
     width: 300px;
     height: 200px;
 }
+
 /* --------------
     GENERAL 
 ----------------*/
@@ -38,6 +39,19 @@ main{
 footer{
     background-color: #222222;
     height: 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-25{
+    display: flex;
+    width: 25%;
+    border: 1px dashed white;
+}
+.col-50{
+    width: 50%;
+    border: 1px dashed white;
 }
 
 /* --------------
@@ -68,3 +82,13 @@ header span{
 /* --------------
     FOOTER 
 ----------------*/
+.webcam{
+    padding-left: 30px;
+}
+.icon i{
+    font-size: 45px;
+    padding: 9px 10px;
+}
+.icon{
+    text-align: center;
+}
