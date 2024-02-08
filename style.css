@@ -98,5 +98,8 @@ header span{
 .fine-chiamata{
     background-color: #4a4a4a;
     color: #ec2121;
-
+}
+.controlli{
+    display: flex;
+    justify-content: center;
 }
